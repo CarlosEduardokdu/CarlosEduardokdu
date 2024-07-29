@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Calculadora-de-churrasco</title>
+</head>
+
+<body>
+
+    <main class="principal">
+  
+
+        <div class="container">
+
+            <h1>Calculadora de Churrasco</h1>
+            <label for="numHomens"> Homens:</label>
+            <input type="number" id="numHomens" placeholder="Digite o número de homens" min="0">
+            <label for="numMulheres"> Mulheres:</label>
+            <input type="number" id="numMulheres" placeholder="Digite o número de mulheres" min="0">
+            <label for="numCriancas"> Crianças:</label>
+            <input type="number" id="numCriancas" placeholder="Digite o número de crianças" min="0">
+            <button onclick="calcularIngredientes()">Calcular Ingredientes</button>
+            <div id="resultado" class="result"></div>
+
+    </main>
+ <script src="script.js"></script>
+</body>
+
+</html>
